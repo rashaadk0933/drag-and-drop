@@ -14,7 +14,7 @@ html {
 
 body {
   margin: 0;
-  background: url("./trees.jpg");
+  background: url("./gym.jpg");
   background-size: cover;
   background-position: 50% 60%;
   background-attachment: fixed;
@@ -89,7 +89,7 @@ ul {
 /* Custom Scrollbar */
 .custom-scroll {
   overflow-y: auto;
-  max-height: 75vh;
+  max-height: 52vh;
 }
 
 .custom-scroll::-webkit-scrollbar-track {
