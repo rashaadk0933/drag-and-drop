@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 class="main-title">Things to do List</h1>
+    <h1 class="main-title">Things to do </h1>
 
     <div class="drag-container">
       <ul class="drag-list">
@@ -19,11 +19,9 @@
             <h1>Backlog</h1>
           </span>
           <!-- Backlog Content -->
-          <div id=backlog-content" class="custom-scroll">
-            <ul class="drag-item-list" id= backlog-list">
-              <li class="drag-item">Testing</li>
-              <li class="drag-item">Testing</li>
-              <li class="drag-item">Testing</li>
+          <div id="backlog-content" class="custom-scroll">
+            <ul class="drag-item-list" id="backlog-list" ondrop="drop(event)"
+              ondragover="allowDrop(event)" ondragenter="dragEnter(0)">
             </ul>
           </div>
           <!-- Add Button Group -->
@@ -46,11 +44,9 @@
             <h1>Progress</h1>
           </span>
           <!-- Progress Content -->
-          <div id= progress-content" class="custom-scroll">
-            <ul class="drag-item-list" id= progress-list">
-              <li class="drag-item">Testing</li>
-              <li class="drag-item">Testing</li>
-              <li class="drag-item">Testing</li>
+          <div id="progress-content" class="custom-scroll">
+            <ul class="drag-item-list" id="progress-list" ondrop="drop(event)"
+              ondragover="allowDrop(event)" ondragenter="dragEnter(1)">
             </ul>
           </div>
           <!-- Add Button Group -->
@@ -73,12 +69,9 @@
             <h1>Complete</h1>
           </span>
           <!-- Complete Content -->
-          <div id= complete-content" class="custom-scroll">
-            <ul class="drag-item-list" id= complete-list">
-              <li class="drag-item">Testing</li>
-              <li class="drag-item">Testing</li>
-              <li class="drag-item">Testing</li>
-              <li class="drag-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi omnis vitae corporis excepturi perspiciatis quibusdam ad recusandae, aut! Cupiditate facilis, reiciendis. Quibusdam facere voluptatum totam maiores, tempore obcaecati itaque! Amet.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum quia laboriosam perspiciatis id saepe libero reiciendis sapiente quis error tempore veniam dolores commodi tenetur, esse fugit alias iste corrupti quae.</li>
+          <div id="complete-content" class="custom-scroll">
+            <ul class="drag-item-list" id="complete-list"
+              ondrop="drop(event)" ondragover="allowDrop(event)" ondragenter="dragEnter(2)">
             </ul>
           </div>
           <!-- Add Button Group -->
@@ -103,10 +96,8 @@
 
           <!-- On Hold Content -->
           <div id="on-hold-content" class="custom-scroll">
-            <ul class="drag-item-list" id="on-hold-list">
-              <li class="drag-item">Testing</li>
-              <li class="drag-item">Testing</li>
-              <li class="drag-item">Testing</li>
+            <ul class="drag-item-list" id="on-hold-list" ondrop="drop(event)"
+            ondragover="allowDrop(event)" ondragenter="dragEnter(3)">
             </ul>
           </div>
           <!-- Add Button Group -->
